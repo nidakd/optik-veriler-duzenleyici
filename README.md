@@ -79,6 +79,8 @@ Bu proje kişisel kullanım için geliştirilmiştir.
 
 ## 👤 Geliştirici
 
+**Nida Akdoğan**
+
 Kişisel otomasyon projesi - 2026
 
 ---
