@@ -1,0 +1,118 @@
+╔════════════════════════════════════════════════════════════════╗
+║                  VERİ DÜZENLEYİCİ - HIZLI BAŞLANGIÇ          ║
+╚════════════════════════════════════════════════════════════════╝
+
+📌 HAZIRLIK (Bir kez yapılır)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Script hazır: veri_duzenleyici.py
+✓ Klasör hazır: kaynaklar/
+✓ Test başarılı: 149 kayıt işlendi
+
+
+🚀 KULLANIM ADIMLARI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣  WEB SAYFALARINDAN VERİ TOPLAMA
+   
+   Her sayfa için:
+   • Sayfayı açın
+   • Sağ tık → "Sayfa Kaynağını Görüntüle" (veya Cmd+U)
+   • Hepsini seç (Cmd+A) ve kopyala (Cmd+C)
+   • TextEdit/Notepad'de yeni dosya aç
+   • Yapıştır (Cmd+V)
+   • Kaydet: kaynaklar/sayfa1.txt
+   
+   İstediğiniz kadar sayfa ekleyebilirsiniz!
+
+
+2️⃣  SCRIPT'İ ÇALIŞTIR
+
+   Terminal'i açın ve şu komutu çalıştırın:
+   
+   cd /Users/hnidakd/Desktop/optik_veriler
+   python3 veri_duzenleyici.py
+
+
+3️⃣  EXCEL'DE AÇ
+
+   • cikti_excel.csv dosyasına çift tıklayın
+   • Excel otomatik açılacak
+   • Türkçe karakterler tam görünecek!
+
+
+💡 ÖNEMLİ BİLGİLER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Script tekrar eden kayıtları otomatik temizler
+✓ Verileri alfabetik sıraya koyar
+✓ Birden fazla dosyayı aynı anda işler
+✓ Her çalıştırmada eski cikti_excel.csv üzerine yazılır
+
+
+📂 DOSYA YAPISI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+optik_veriler/
+├── veri_duzenleyici.py     ← Ana script
+├── KULLANIM.md             ← Detaylı kılavuz
+├── BASLANGIC.txt           ← Bu dosya
+├── kaynaklar/              ← Sayfa kaynaklarını buraya
+│   ├── sayfa1.txt
+│   ├── sayfa2.txt
+│   └── ...
+└── cikti_excel.csv         ← Sonuç (Excel'de açın)
+
+
+🎯 ÖRNEK KULLANIM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Terminal çıktısı şöyle görünecek:
+
+  ============================================================
+    OPTİK VERİLERİNİ DÜZENLEYICI
+  ============================================================
+  
+  ✓ 5 dosya bulundu
+  
+    → İşleniyor: sayfa1.txt
+      ✓ 149 yeni kayıt eklendi
+    → İşleniyor: sayfa2.txt
+      ✓ 87 yeni kayıt eklendi
+    → İşleniyor: sayfa3.txt
+      ✓ 63 yeni kayıt eklendi
+  
+  ✓ Toplam 299 benzersiz kayıt 'cikti_excel.csv' dosyasına yazıldı
+
+
+❓ SORUN GİDERME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Soru: Hiç veri bulunamadı diyor?
+Çözüm: Kaynak dosyalarınızın CSV formatında olduğundan emin olun.
+        Her satır: Şirket,İsim,Telefon,"Adres" formatında olmalı.
+
+Soru: Excel'de karakterler bozuk?
+Çözüm: Dosyayı şöyle açın:
+        Excel → Veri → Metin/CSV'den → Dosya seçin →
+        "65001: Unicode (UTF-8)" seçin → Yükle
+
+Soru: Yeni sayfalar eklemek istiyorum?
+Çözüm: Yeni dosyaları kaynaklar/ klasörüne ekleyip
+        script'i yeniden çalıştırın.
+
+
+✨ İPUCU
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Her yeni veri toplama işinde:
+1. kaynaklar/ klasörünü temizle (eski dosyaları sil)
+2. Yeni sayfa kaynaklarını ekle
+3. Script'i çalıştır
+4. Sonucu Excel'de kontrol et
+
+
+İyi çalışmalar! 🎉
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Detaylı bilgi için: KULLANIM.md dosyasını okuyun
